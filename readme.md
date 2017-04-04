@@ -1,4 +1,4 @@
-#Crazy Text
+##Crazy Text
 
 _Arquivos necessários_
 
@@ -40,6 +40,6 @@ $('#elemento').crazytext({
 	'duracao': 1.5,
 
 	'corHover': '#c40c42'
-	
+
 });
 
