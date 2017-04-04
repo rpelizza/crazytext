@@ -15,6 +15,8 @@ Insira em sua página o jQuery 1.12.4 e crazytext.min.js .
 
 `corHover` - Cor, em heaxadecimal, para o hover.
 
+`evento` - Trigger (mouseenter, mouseleave, click...)
+
 
 
 
@@ -36,7 +38,8 @@ As opções padrão são:
 $('#elemento').crazytext({
 	'eixo': 'z',
 	'duracao': 1.5,
-	'corHover': '#c40c42'
+	'corHover': '#c40c42',
+	'evento': 'mouseenter'
 });
 ```
 

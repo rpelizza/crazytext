@@ -6,9 +6,9 @@
   		var defaults = {
   			'eixo': 'x',
   			'duracao': 1,
+  			'evento': 'mouseenter',
   			'corHover': ''
   		};
-
 
   		var settings = $.extend({}, defaults, options);
 
@@ -34,8 +34,7 @@
 			var spans = $(this).children('span');
 			var tamanho = $(this).children('span').length;
 
-			$(this).hover(function() {
-
+			function crazytext() {
 				var items = Array(360,720,1080,1440,1800,2160,2520,2880,3240);
 
 				$(this).children('span').each(function(index, el) {
@@ -65,12 +64,11 @@
 						});
 					}
 				});
-				
-			}, function() {
-				$(this).children('span').css({
-					'color': ''
-				});
-			});
+			}
+
+
+			this.addEventListener(options.evento, crazytext, false);
+
 
 
   		});
