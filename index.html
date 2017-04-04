@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>crazy text</title>
+	
+
+	<style>
+		a {
+			text-decoration: none;
+		}
+		a > span {
+		    font-family: sans-serif;
+		    font-size: 20px;
+		    color: #ff9800;
+		}
+	</style>
+
+</head>
+<body>
+
+	<a href="#">
+		testando efeito 1 2 3
+	</a>
+	
+
+
+
+	<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+
+  <script src="crazytext.min.js"></script>
+
+
+  <script>
+  	$('a').crazytext({
+		'eixo': 'x', //X, Y ou Z
+		'duracao': 1, //Segundos
+		'corHover': '#c40c42' //hexadecimal
+	});
+  </script>
+</body>
+</html>
