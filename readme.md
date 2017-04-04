@@ -1,24 +1,24 @@
-##Crazy Text
+# Crazy Text
 
-_Arquivos necessários_
+**Arquivos necessários**
 
 Insira em sua página o jQuery 1.12.4 e crazytext.min.js .
 
 
 
 
-_Opções_
+**Opções**
 
-*eixo* - X, Y e Z
+`eixo` - X, Y e Z
 
-*duracao* - Tempo em segundos
+`duracao` - Tempo em segundos
 
-*corHover* - Cor, em heaxadecimal, para o hover.
-
-
+`corHover` - Cor, em heaxadecimal, para o hover.
 
 
-_Como utilizar_
+
+
+**Como utilizar**
 
 Chame o elemento pelo ID ou classe, e utilize as opções acima.
 
@@ -30,16 +30,13 @@ As opções padrão são:
 
 
 
-_Exemplo de utilização_
+**Exemplo de utilização**
 
-
+```js
 $('#elemento').crazytext({
-
 	'eixo': 'z',
-
 	'duracao': 1.5,
-
 	'corHover': '#c40c42'
-
 });
+```
 
